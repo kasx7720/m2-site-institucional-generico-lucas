@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body{
+    max-width: 100%;
+    margin-inline: auto;
+}
+header{
+    width: 100%;
+    padding: 20px 100px;
+    background-color: var(--gray-1);
+    border-bottom: 2px solid var(--brand-1);
+}
+
+
+.header-content {
+    max-width: 1256px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+header img {
+    width: 200px;
+    height: 20px;
+}
+header button {
+    width: 260px;
+    height: 60px;
+    border: 1px solid var(--gray-7);
+    background-color: var(--gray-1);
+    color: var(--gray-7);
+    cursor: pointer;
+    font: var(--text4);
+}
+header button:hover {
+    background-color: var(--gray-2);
+}
+
+main{
+    width: 100%;
+    background-color: var(--gray-2);
+}
+.section-banner{
+    background-color: var(--gray-2);
+    width: 1256px;
+    margin: 0 auto;
+    display: flex;
+    height: 780px;
+    padding: 200px;
+}
+.section-banner div {
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+}
+  
+.section-banner h1{
+    font: var(--title1);
+    text-align: center;
+    color: var(--gray-6);
+}
+.section-banner span{
+    color: var(--brand-1);
+}
+.section-banner p{
+    font: var(--text1);
+    color: var(--gray-4);
+    text-align: center;
+}
+.section-banner button{
+    width: 140px;
+    height: 60px;
+    margin: 0 auto;
+    cursor: pointer;
+    background-color: var(--brand-1);
+    border: 1px solid var(--brand-1);
+    color: var(--gray-7);
+    font: var(--text4);
+}
+.section-banner button:hover{
+    background-color: var(--brand-2);
+}
+
+.section-about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--gray-1);
+    width: 100%;
+    height: 280px;
+}
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1256px;
+}
+.div-left{
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.div-right{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.section-about h2{
+    font: var(--title2);
+    color: var(--gray-6);
+}
+.section-about p{
+    font: var(--text1);
+    color: var(--gray-5);
+}
+
+.section-faq{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--gray-2);
+    width: 100%;
+}
+.faq-content{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 1256px;
+    gap: 20px;
+}
+.section-faq h2{
+    font: var(--title2);
+    color: var(--gray-6);
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.section-faq p{
+    font: var(--text1);
+    color: var(--gray-4);
+    margin-bottom: 30px;
+}
+.section-faq button{
+    background-color: var(--brand-1);
+    width: 270px;
+    height: 60px;
+    border: 1px solid var(--brand-1);
+    color: var(--gray-7);
+    font: var(--text4);
+    margin-top: 30px;
+}
+li{
+    text-align: center;
+    list-style: none;
+    margin-bottom: 20px;
+    margin-top: 100px;
+}
+.div-right h3{
+    font: var(--title3);
+    color: var(--gray-6);
+    margin-bottom: 10px;
+}
+.div-right p {
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.section-comments{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--gray-2);
+    width: 100%;
+}
+.comments-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 1256px;
+    gap: 20px;
+}
+.div-left ul {
+    list-style: none;
+    padding: 0;
+}
+.div-left li {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+.comment-info {
+    flex: 0 1 45%;
+    text-align: left;
+}
+.comment-text {
+    flex: 1;
+    text-align: justify;
+    margin-left: 20px;
+    font: var(--text2);
+    color: var(--gray-5);
+}
+.card-comments{
+    background-color: var(--brand-1);
+    text-align: left;
+    list-style: none;
+    margin-bottom: 20px;
+    margin-top: 100px;
+    width: 500px;
+    height: 450px;
+    padding: 50px;
+}
+.comment-info h3{
+    font: var(--title3);
+    color: var(--gray-6);
+}
+.comment-info p{
+    font: var(--text3);
+    color: var(--gray-4);
+}
+.card-comments h2{
+    font: var(--title2);
+    color: var(--gray-7);
+    margin: 20px 0px;
+}
+.card-comments p{
+    font: var(--text1);
+    color: var(--gray-7);
+    text-align: justify;
+    margin: 20px 0px;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    background-color: var(--gray-1);
+}
