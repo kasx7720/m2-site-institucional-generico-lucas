@@ -9,6 +9,9 @@ header{
     padding: 20px 100px;
     background-color: var(--gray-1);
     border-bottom: 2px solid var(--brand-1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 
@@ -131,6 +134,10 @@ main{
     width: 1256px;
     gap: 20px;
 }
+.faq-left {
+    position: sticky;
+    top: 20px;
+}
 .section-faq h2{
     font: var(--title2);
     color: var(--gray-6);
@@ -180,6 +187,10 @@ li{
     align-items: flex-start;
     width: 1256px;
     gap: 20px;
+}
+.comments-right {
+    position: sticky;
+    top: 20px;
 }
 .div-left ul {
     list-style: none;
