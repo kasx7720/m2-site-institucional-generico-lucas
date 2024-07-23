@@ -15,7 +15,6 @@ closeButton.onclick = function() {
     backdrop.style.display = 'none';
 }
 
-// Fecha o modal e o backdrop ao clicar fora do modal
 backdrop.onclick = function() {
     modal.close();
     backdrop.style.display = 'none';

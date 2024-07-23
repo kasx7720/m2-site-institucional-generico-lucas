@@ -9,12 +9,12 @@
     --gray-6:#EDF2FF;
     --gray-7:#F8F9FA;
 
-    --title1: 600 52px / 140% 'Inter', sans-serif;
-    --title2: 600 40px / 160% 'Inter', sans-serif;
-    --title3: 600 32px / 160% 'Inter', sans-serif;
+    --title1: 600 3.25rem / 140% 'Inter', sans-serif;
+    --title2: 600 2.5rem / 160% 'Inter', sans-serif;
+    --title3: 600 2rem / 160% 'Inter', sans-serif;
     
-    --text1: 400 20px / 150% 'Inter', sans-serif;
-    --text2: 400 18px / 150% 'Inter', sans-serif;
-    --text3: 400 16px / 150% 'Inter', sans-serif;
-    --text4: 600 16px / 150% 'Inter', sans-serif;
+    --text1: 400 1.25rem / 150% 'Inter', sans-serif;
+    --text2: 400 1.125rem / 150% 'Inter', sans-serif;
+    --text3: 400 1rem / 150% 'Inter', sans-serif;
+    --text4: 600 1rem / 150% 'Inter', sans-serif;
 }
